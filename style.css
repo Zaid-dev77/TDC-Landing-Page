@@ -32,6 +32,7 @@ ul,li {
     display: flex;
     justify-content: flex-start;
     gap: 35px;
+    cursor: pointer;
 }
 .engineers {
     color: #2B59FF;
@@ -59,7 +60,7 @@ button,a {
 .Hero-Section {
     position: relative;
     width: 100%;
-    height: 75vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,7 +85,6 @@ button,a {
 .right {
     width: 100%;
     height: 60vh;
-    border: 1px solid red;
 }
 
 
@@ -118,7 +118,7 @@ h1 {
 .right {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 20px;
     padding: 12px;
 }
@@ -126,7 +126,6 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
     padding: 25px;
 }
 .Form-heading {
@@ -142,11 +141,48 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid black;
-    padding: 25px;
+    padding: 0px 25px;
 }
-.input-fields {
-    width: 70%;
-    padding: 11px 53px 11px 30px;
+.input-fields-one {
+    width: 100%;
+    padding: 18px 53px 18px 30px;
     margin: 10px;
+    background-color: #F1F4FF;
+    border: none;
+}
+.input-fields-two {
+    width: 100%;
+    padding: 18px 53px 18px 30px;
+    margin: 10px;
+    background-color: #F1F4FF;
+    border: none;
+    background-image: url(Images/Group\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 95%;
+}
+.form-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 230px;
+    width: 100%;
+}
+.Signin-btn {
+    padding: 20px 20px;
+    width: 100%;
+    align-self: center;
+    margin-top: 25px;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0px 25px;
+}
+.Social-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
 }
