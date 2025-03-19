@@ -257,7 +257,7 @@
 
 @media only screen and (max-width: 499px) and (min-width: 320px) {
     header {
-        height: 15vh;
+        height: 12vh;
         align-items: center;
         padding: 0px 10px;
     }
@@ -312,13 +312,14 @@
         background-image: url(Images/Ellipse\ 233.png);
         background-repeat: no-repeat;
         background-position: -30% 100%;
+        flex-wrap: wrap;
     }
     .left {
         position: relative;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
+        align-items: center;
         width: 100%;
         height: auto;
         padding: 0px 0px;
@@ -353,8 +354,31 @@
     .right {
         width: 100%;
         height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .right-cornerimg {
         display: none;
+    }
+    .Form-desc {
+        font-size: 16px;
+        font-weight: 400;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .form-options {
+        display: flex;
+        justify-content: space-between;
+        gap: 2px;
+        width: 100%;
+    }
+    .Social-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        padding: 0px 60px;
     }
 }

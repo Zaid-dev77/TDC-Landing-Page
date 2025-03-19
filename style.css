@@ -186,3 +186,67 @@ h1 {
     justify-content: space-between;
     margin-top: 20px;
 }
+
+/* Footer Section Styling */
+
+
+.Footer-main {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F3F4F6;
+    padding: 40px;
+}
+.Column-one {
+    width: 100%;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid black;
+}
+.footer-description {
+    margin: 20px 0px 20px 0px;
+}
+.Column-two {
+    width: 100%;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid black;
+}
+.Column-Three{
+    width: 100%;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid black;
+}
+.Column-Four {
+    width: 100%;
+    height: 36vh;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    border: 1px solid black;
+}
+.footer-menu {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.Newsletter-footer {
+    border: none;
+    border-radius: 46px;
+    padding: 18px 18px;
+    margin-bottom: 20px;
+}
+.Newsletter-btn {
+    align-self: flex-end;
+    width: 138px;
+    height: 51px;
+}
