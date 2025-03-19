@@ -205,7 +205,6 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 25px;
-    border: 1px solid black;
 }
 .footer-description {
     margin: 20px 0px 20px 0px;
@@ -216,7 +215,6 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 25px;
-    border: 1px solid black;
 }
 .Column-Three{
     width: 100%;
@@ -224,7 +222,6 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 25px;
-    border: 1px solid black;
 }
 .Column-Four {
     width: 100%;
@@ -232,7 +229,7 @@ h1 {
     display: flex;
     flex-direction: column;
     padding: 25px;
-    border: 1px solid black;
+    gap: 25px;
 }
 .footer-menu {
     margin-top: 60px;
@@ -243,10 +240,16 @@ h1 {
     border: none;
     border-radius: 46px;
     padding: 18px 18px;
-    margin-bottom: 20px;
 }
 .Newsletter-btn {
     align-self: flex-end;
-    width: 138px;
-    height: 51px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+.Newsletter-btn>a{
+    text-align: center;
+    
+} 
